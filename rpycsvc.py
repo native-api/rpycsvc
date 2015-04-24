@@ -1,11 +1,3 @@
-# Listen for SMTP connections and relay letters to another SMTP server
-# with authentication
-
-relay_host="mail.nic.ru"
-relay_user="sharepoint@russian-energy.ru"
-relay_pass="844rd7HXjKTY6"
-listen="127.0.0.1"
-
 # set up logging #####################################
 import sys,logging,logging.handlers,os.path
 #in this particular case, argv[0] is likely pythonservice.exe deep in python's lib\
